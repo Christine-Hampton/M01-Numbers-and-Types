@@ -1,0 +1,163 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ab2b4fd6-61a3-4288-ba5a-ff64aa07d06a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3600\n"
+     ]
+    }
+   ],
+   "source": [
+    "#3.1 How many seconds are in an hour? \n",
+    "seconds_in_an_hour = 60*60\n",
+    "print(seconds_in_an_hour) \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "66b457f7-98a3-413c-8c1a-4a52126d8092",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3600\n"
+     ]
+    }
+   ],
+   "source": [
+    "#3.2 Assign the result from the previous task (seconds in an hour) \n",
+    "# to a variable called seconds_per_Hour\n",
+    "\n",
+    "seconds_per_hour = seconds_in_an_hour\n",
+    "print(seconds_per_hour)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "9382aa69-0dc3-4bf7-b549-ba9263158317",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "86400\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3.3 How many seconds in a day? Use your seconds_per_hour variable\n",
+    "seconds_per_day = seconds_per_hour * 24\n",
+    "print(seconds_per_day)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8ab89101-701b-4264-99ef-f24759b3c8a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "86400\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3.4 Calculate seconds per day again, but this time save the result \n",
+    "# in a variable called seconds_per_day\n",
+    "seconds_per_day = seconds_per_hour * 24\n",
+    "print(seconds_per_day)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "ccd18686-4174-40e9-ab0a-40b24607a487",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#3.5 Divide seconds_per_day by seconds_per_hour. \n",
+    "# use floating-point (/) division\n",
+    "seconds_per_day_divided_by_hour_float = seconds_per_day / seconds_per_hour\n",
+    "print(seconds_per_day_divided_by_hour_float)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f8e6a418-7be3-4eeb-a5a9-1cccd93ab31f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3.6 Divide seconds_per_day by seconds_per_hour\n",
+    "# use integer (//) division\n",
+    "# Did this number agree with the floating-point value from the previous \n",
+    "# question aside from the final .0?\n",
+    "seconds_per_day_divided_by_hour_int = seconds_per_day // seconds_per_hour\n",
+    "print(seconds_per_day_divided_by_hour_int) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c80bf1fc-cd8f-43bc-b148-da8ef6948b85",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Yes, the number for 3.6 did agree with the ny=umber for 3.5 "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
